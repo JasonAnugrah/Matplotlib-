@@ -1,0 +1,11 @@
+Saya pikir error ini terjadi karena saya memakai fungsi to_html5_video() dari objek animasi Matplotlib tanpa memiliki codec yang diperlukan, yaitu "ffmpeg." 
+
+untuk atasi saya instal 
+
+!pip install ffmpeg-python
+dan
+import matplotlib as mpl
+
+mpl.rcParams['animation.writer'] = 'ffmpeg'
+
+tapi tetap masih error :(
