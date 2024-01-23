@@ -1,2 +1,1 @@
-# Matplotlib-
-Weekly Exercise
+# Matplotlib WEEK 8 Mengenal plot lifecycle
